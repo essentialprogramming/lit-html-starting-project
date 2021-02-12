@@ -1,4 +1,5 @@
 import './components/helloWorld.js';
 import './components/counter.js';
 import './components/untilDirective.js';
-import './components/myElement'
+import './components/reverseString.js';
+import './components/myElement';
