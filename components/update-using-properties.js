@@ -17,6 +17,7 @@ class UpdateProperties extends LitElement {
     }
 
     loadStuff() {
+        this.message = 'Loading..';
         setInterval(() => {
             let loaded = new CustomEvent('stuff-loaded', {
                 detail: 'Loading complete.'
@@ -26,7 +27,14 @@ class UpdateProperties extends LitElement {
     }
 
     render() {
-        return html` <p>${this.message}</p> `;
+        return html` 
+           <div>
+             ${this.message}
+             <button @click="${() => this.loadStuff()}">
+               Load again
+             </button>
+           </div>
+         `;
     }
 }
 
