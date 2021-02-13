@@ -4,7 +4,7 @@ import {LitElement, html} from 'lit-element';
 // Create a class definition for your component and extend the LitElement base class
 class HelloWorld extends LitElement {
 
-
+    // Implement `render` to define a template for your element.
     render() {
 
         // Return the template using the html template tag. This will allow lit-html to

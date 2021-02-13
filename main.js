@@ -1,5 +1,9 @@
-import './components/helloWorld.js';
+import './components/hello-world.js';
 import './components/counter.js';
-import './components/untilDirective.js';
+import './components/until-directive-example.js';
 import './components/reverseString.js';
 import './components/myElement';
+import './components/dom-manipulation-anti-pattern';
+import './components/update-using-properties';
+import './components/example-loops';
+import './components/collect-input-data';
