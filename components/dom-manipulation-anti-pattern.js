@@ -22,7 +22,7 @@ class MyElement  extends LitElement {
     }
 
     render() {
-        return html` <p id="message">Loading</p> `;
+        return html` <p id="message">Loading..</p> `;
     }
 }
 customElements.define('dom-manipulation-anti-pattern', MyElement);

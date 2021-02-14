@@ -7,3 +7,5 @@ import './components/dom-manipulation-anti-pattern';
 import './components/update-using-properties';
 import './components/example-loops';
 import './components/collect-input-data';
+import './components/whales-example';
+import './components/video-player';
