@@ -1,1 +1,5 @@
-# lit-html-starting-project
+# Run
+
+npm install
+
+npm run build
