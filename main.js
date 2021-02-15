@@ -9,3 +9,4 @@ import './components/example-loops';
 import './components/collect-input-data';
 import './components/whales-example';
 import './components/video-player';
+import './components/max-textarea';
