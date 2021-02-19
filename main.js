@@ -10,3 +10,4 @@ import './components/collect-input-data';
 import './components/whales-example';
 import './components/video-player';
 import './components/max-textarea';
+import './components/spinning-cube/spinning-cube';
