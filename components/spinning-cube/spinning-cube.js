@@ -2,15 +2,6 @@ import { LitElement, html, css } from 'lit-element';
 import { cubeStyles } from './styles.js';
 
 class SpinningCube extends LitElement {
-  static get properties() {
-    return {
-    }
-  }
-
-  constructor() {
-    super();
-  }
-
   static get styles() {
     return [
       cubeStyles
@@ -18,8 +9,6 @@ class SpinningCube extends LitElement {
   }
 
   render() {
-    console.log(this.margin);
-
     return html`
       <div class="cubeSpinnerContainer">
         <div class="shadow-wrapper">
