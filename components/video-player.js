@@ -35,7 +35,7 @@ class VideoPlayer extends LitElement {
                 let urlMultiPeriod = "https://dash.akamaized.net/dash264/TestCases/5a/nomor/1.mpd"
                 let urlMp4 = "http://159.65.124.175:8082/api/video/stream/mp4/Tom&Jerry";
 
-                this.factory.getPlayer(urlMpdExtern).then(function (player) {
+              this.factory.getPlayer(urlMp4).then(function (player) {
                         const playControl = new PlayButton(player);
                         const timeControl = new TimeControl(player);
 
